@@ -15,7 +15,7 @@ concatenated as a training set.
 
 Try running the code as
 
-python keyword_recommend.py * training-set test-filename *
+python keyword_recommend.py _training-set test-filename_
 
 for example
 
