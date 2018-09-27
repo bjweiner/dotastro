@@ -1,5 +1,5 @@
 
-** You Might Also Like These Matplotlib Keywords **
+## You Might Also Like These Matplotlib Keywords ##
 
 A hack to read your code and recommend matplotlib keywords.
 It takes a training set of python code, such as an ensemble of 
@@ -15,10 +15,13 @@ concatenated as a training set.
 
 Try running the code as
 
-python keyword_recommend.py training-set test-filename
+python keyword_recommend.py * training-set test-filename *
 
 for example
 
-python keyword_recommend.py All_Examples.py anscombe.py
+`python keyword_recommend.py All_Examples.py anscombe.py`
 
-python keyword_recommend.py All_Examples.py scatter_masked.py
+`python keyword_recommend.py All_Examples.py scatter_masked.py`
+
+
+-- Benjamin Weiner, bjweiner@gmail.com
