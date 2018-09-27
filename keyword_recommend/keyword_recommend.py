@@ -206,10 +206,10 @@ def make_training_freq(fname):
     calls_list = get_calls_from_file(fname)
     funcs = make_unique_funcnames(calls_list)
     keyws = make_unique_keywords(calls_list)
-    print('Functions: ',funcs)
-    print('Keywords: ',keyws)
+    # print('Functions: ',funcs)
+    # print('Keywords: ',keyws)
     f_k_freq = compute_key_probs(funcs, keyws, calls_list)
-    print('Normalized kw frequency: ',f_k_freq)
+    # print('Normalized kw frequency: ',f_k_freq)
     return funcs, keyws, f_k_freq
 
 # analyze a file by finding what functions were called
@@ -222,6 +222,7 @@ def analyze_file(fname, funcs, keyws, f_k_freq):
     for f_test in funcs_new:
         your_freq, your_keys = most_probable_kws(funcs_new, keyws_new, f_k_freq_new, f_test)
         train_freq, train_keys = most_probable_kws(funcs, keyws, f_k_freq, f_test)
+        print("-----")
         print('You used function ',f_test,' with keywords and frequency: ')
         # print(your_freq, your_keys)
         # print(train_freq, train_keys)
@@ -249,10 +250,12 @@ def main():
     else:
         train_name = input('Enter training file name: ')
         fname = input('Enter file name to analyze: ')
+        print("-----")
     funcs, keyws, f_k_freq = make_training_freq(train_name)
     while not (fname==''):
         out = analyze_file(fname, funcs, keyws, f_k_freq)
         fname = input('Enter file name to analyze [quit]: ')
+        print("-----")
         
     print('Done!')
     return
