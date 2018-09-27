@@ -9,3 +9,10 @@ based on the training set.
 So far it just does a dumb frequency analysis: it tells you
 the keywords most often used with the functions you're using.
 
+Try running it as
+
+python keyword_recommend.py <training set> <test filename>
+
+for example
+
+python keyword_recommend.py All_Examples.py anscombe.py
