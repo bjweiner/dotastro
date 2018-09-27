@@ -1,0 +1,86 @@
+(astroconda) talus: keyword_recommend$ python keyword_recommend.py All_Examples.py anscombe.py 
+
+-----
+You used function  axis  with keywords and frequency: 
+None!
+We recommend these keywords with frequency: 
+None!
+-----
+You used function  plot  with keywords and frequency: 
+lw  1.000
+We recommend these keywords with frequency: 
+lw  0.153
+label  0.061
+alpha  0.041
+zorder  0.041
+c  0.031
+gid  0.031
+label'zorder  0.031
+color  0.020
+label"n  0.010
+linewidth  0.010
+marker  0.010
+markersize  0.010
+-----
+You used function  setp  with keywords and frequency: 
+xticks  1.000
+yticks  0.750
+xticklabels  0.250
+yticklabels  0.250
+We recommend these keywords with frequency: 
+color  0.163
+linewidth  0.143
+visible  0.143
+xticks  0.143
+yticks  0.102
+linestyle  0.061
+markersize  0.061
+size  0.061
+ha  0.041
+rotation  0.041
+autoscale_on  0.020
+fontsize  0.020
+frame_on  0.020
+marker  0.020
+markerfacecolor  0.020
+weight  0.020
+xticklabels  0.020
+yticklabels  0.020
+-----
+You used function  show  with keywords and frequency: 
+None!
+We recommend these keywords with frequency: 
+(block  0.002
+-----
+You used function  subplot  with keywords and frequency: 
+None!
+We recommend these keywords with frequency: 
+projection  0.078
+sharex  0.029
+aspect  0.019
+facecolor  0.019
+colspan  0.010
+frameon  0.010
+sharey  0.010
+-----
+You used function  text  with keywords and frequency: 
+fontsize  1.000
+We recommend these keywords with frequency: 
+family  0.122
+fontsize  0.095
+ha  0.095
+size  0.081
+color  0.068
+wrap  0.068
+rotation  0.054
+\\sigma  0.014
+dict(size  0.014
+fontdict  0.014
+r'$\mu  0.014
+r'$\sum_{i  0.014
+style  0.014
+transform  0.014
+va  0.014
+Enter file name to analyze [quit]: 
+-----
+Done!
